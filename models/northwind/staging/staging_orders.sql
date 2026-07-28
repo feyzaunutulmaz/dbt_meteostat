@@ -3,18 +3,18 @@ WITH source_data AS (
     FROM {{ source('northwind_data', 'orders') }}
 )
 SELECT
-    orderid AS order_id
-    ,customerid AS customer_id
-    ,employeeid AS employee_id
-    ,orderdate::DATE AS order_date
-    ,requireddate::DATE AS required_date
-    ,shippeddate::DATE AS shipped_date
-    ,shipvia AS ship_via
+    order_id
+    ,customer_id
+    ,employee_id
+    ,order_date
+    ,required_date
+    ,shipped_date
+    ,ship_via
 --	,freight
---	,shipname AS ship_name
---	,shipadress AS ship_address
-    ,shipcity AS ship_city
+--	,ship_name
+--	,ship_address
+    ,ship_city
 --	,shipregion AS ship_region
 --	,shippostalcode AS ship_postalcode
-    ,shipcountry
+    ,ship_country
 FROM source_data
