@@ -6,9 +6,9 @@ SELECT
     order_id
     ,customer_id
     ,employee_id
-    ,order_date
-    ,required_date
-    ,shipped_date
+    ,order_date::date
+    ,required_date::date
+    ,shipped_date::date
     ,ship_via
 --	,freight
 --	,ship_name
