@@ -5,7 +5,7 @@ WITH monthly_revenue AS (
         order_month,
         SUM(total_revenue) AS monthly_revenue
 
-    FROM {{ ref('mart_sales') }}
+    FROM {{ ref('mart_sales_performance') }}
 
     GROUP BY
         order_year,

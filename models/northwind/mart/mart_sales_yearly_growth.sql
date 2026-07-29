@@ -4,7 +4,7 @@ WITH yearly_revenue AS (
         order_year,
         SUM(total_revenue) AS yearly_revenue
 
-    FROM {{ ref('mart_sales') }}
+    FROM {{ ref('mart_sales_performance') }}
 
     GROUP BY order_year
 
