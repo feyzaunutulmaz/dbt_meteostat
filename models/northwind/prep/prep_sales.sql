@@ -8,7 +8,7 @@ products as (
     SELECT * FROM {{ ref('staging_products') }}
 ),
 categories as (
-    SELECT * FROM {{ ref('staging_categories') }}
+    SELECT * FROM {{ ref('staging_customers') }}
 ),
 joined as (
     SELECT
