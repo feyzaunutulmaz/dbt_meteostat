@@ -1,3 +1,7 @@
+The **mart_monthly_growth** model aggregates sales data at the monthly level and calculates key performance indicators including monthly revenue and month-over-month revenue growth. It provides a business-ready dataset for analyzing short-term sales trends, identifying seasonal patterns, and supporting monthly performance reporting.
+
+The **mart_yearly_growth** model aggregates sales data at the yearly level and calculates key performance indicators including yearly revenue and year-over-year revenue growth. It provides a business-ready dataset for evaluating long-term business performance, monitoring revenue development across years, and supporting strategic decision-making and executive reporting.
+
 ### KPI 1 – Monthly Revenue Development
 
 This KPI shows Northwind’s monthly revenue development over time. It helps identify seasonal patterns, strong sales periods, and months with lower sales performance.
